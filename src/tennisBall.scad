@@ -15,3 +15,7 @@ difference() {
 
 	sphere(r = 30.29, center = true);
 }
+
+translate([0,-20,0]) {
+	cube([5,20,5], center = true);
+}
