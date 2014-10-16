@@ -6,7 +6,8 @@
 
 $fn = 100;
 
-
+use <knob.scad>
+use <headKnob.scad>
 
 //cut out for the legs.
 difference() { 
@@ -74,4 +75,9 @@ mirror() {
    }
   }
  }
+}
+
+//head connector
+translate([0,53,0]) {
+	headKnob();
 }
