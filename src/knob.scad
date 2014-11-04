@@ -3,7 +3,7 @@
 //update: Oct 30, 14
 //knob module for Robot body
 //CS 474 3D printing
-$fn = 100;
+
 
 module knob() {
 
@@ -19,8 +19,8 @@ module knob() {
 			sphere(6);
 		}
 
-		translate([38,15,-1]){
-			cube([10,10,3]);
+		translate([38,14,0]){
+			cube([10,12,2]);
 		}
 	}
 }
