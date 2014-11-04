@@ -10,9 +10,13 @@ module headKnob() {
 	}	
 	
 
-	translate([0,-1,0]) {
-		sphere(6);
+	difference() {
+		translate([0,-1,0]) {
+			sphere(6);
+		}
+	
+		translate([-6,0,-1]) {
+			cube([15,5,2]);
+		}
 	}
-
 }
-
