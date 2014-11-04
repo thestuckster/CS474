@@ -2,7 +2,7 @@
 //Joint Test File
 //Main Body
 //Oct 15, 2014
-//Update: Oct 30, 14
+//Update: Nov 4, 14
 //units in mm 
 
 $fn = 100;
