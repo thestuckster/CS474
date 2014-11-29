@@ -1,15 +1,15 @@
 //CS474 Final Project Module
 //Stephen Stucky, Sam Chuks, Josh Pritchett
-//Unites in MM
+//Units in MM
 
 //This is the positive of the toothbrush insert
 //Subtract this to get a space the insert can fit into
-$fn = 100;
+
 module insertPositive() {
 	//center cylinder tab thing-a-majig
-translate([0,0,-2]){
-	cylinder(8, r=3.3650, center=true);
-}
+	translate([0,0,-2]){
+		cylinder(8, r=3.3650, center=true);
+	}
 	
 	hull() {
 		hull() {
