@@ -1,7 +1,8 @@
 
+
 include <brushSlot.scad>
 
-module toothBrush() {
+toothBrush() {
 
 	brushSlot();
 
@@ -19,5 +20,3 @@ module toothBrush() {
 		};
 	};
 }
-
-
