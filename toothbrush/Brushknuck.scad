@@ -1,8 +1,11 @@
 //////////////  Brush Knuckles ///////////////////
 
-
-
 /////////////////// Render //////////////////
+
+module brushKnuckle() {
+
+
+
 difference() {
 
 	translate([-50,20,0]){
@@ -35,7 +38,7 @@ difference() {
 }
 
 
-////////////////// Modules //////////////////
+///////////////// Modules ///////////////////////
 
 module roundedRect(length, width, height, radius) {
 x = length;
@@ -57,3 +60,6 @@ translate([radius, y - radius, 0])
 circle(r=radius);
 			}
 }
+
+
+brushKnuckle();
